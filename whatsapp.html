@@ -33,9 +33,31 @@
     <a href="index.html" class="back-button">Volver al Inicio</a>
   </div>
 </body>
-<footer>
-    © 2025 - Todos los derechos reservados | Ridgemugs Colombia
-</footer>
+<!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <!-- Imagen con clase para estilos específicos -->
+        
+        <div class="footer-copyright">
+            <span>©</span>
+            <span id="currentYear"></span>
+            <span>—</span>
+            <span>LinkBio</span>
+            <span>—</span>
+            <span>Ridgemugs Colombia</span>
+            <span>|</span>
+            <span>GitHub Page</span>
+        </div>
+    </div>
+</footer><!-- <img src="assets/MARIOACOSTA.png" alt="Mario Acosta Logo" class="footer-imagen"> -->
 
+    <script src="js/script.js"></script>
+    <!-- Script para actualizar el año automáticamente -->
+<script>
+    (function() {
+        const yearSpan = document.getElementById('currentYear');
+        if (yearSpan) yearSpan.innerText = new Date().getFullYear();
+    })();
+</script>
 </html>
 
