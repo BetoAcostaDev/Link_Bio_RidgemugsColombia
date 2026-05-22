@@ -1,15 +1,9 @@
 /* VARIABLES GLOBALES */
 :root {
-  /* --color-fondo: #FEF9E1;
-  --color-texto: #333333;
-  --color-primario: #C14600;
-  --color-secundario: #FF9D23; */
-
-
   --color-fondo: #f7f8fa;
     --color-texto: #2d3436;
     --color-primario: #4a6fa5;
-    --color-design: #b8a9c9;
+    --color-qr: #b8a9c9;
     --color-warm: #d4a574;
     --color-secundario: #3d5068;
     --color-white: #ffffff;
